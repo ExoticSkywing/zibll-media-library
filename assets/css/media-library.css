@@ -581,6 +581,26 @@
     padding-bottom: 70px;
 }
 
+/* --- 底部悬浮操作栏：深色模式适配 --- */
+body.dark-theme .zml-batch-action-bar {
+    background: rgba(30, 30, 34, 0.9);
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+body.dark-theme .zml-batch-info {
+    color: var(--focus-color, #e4e8eb);
+}
+
+body.dark-theme .zml-batch-buttons .zml-batch-cancel-btn {
+    background: rgba(255, 255, 255, 0.08);
+    color: #a0aec0;
+}
+
+body.dark-theme .zml-batch-buttons .zml-batch-cancel-btn:hover {
+    background: rgba(255, 255, 255, 0.15);
+    color: #fff;
+}
+
 /* 列表视图多选框微调 */
 .zml-list-view .zml-item-checkbox {
     top: 50%;
